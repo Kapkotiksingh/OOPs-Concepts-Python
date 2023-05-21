@@ -111,7 +111,7 @@ class Circle(Shape):
 
 shapes = [Rectangle(4, 5), Circle(3)]
 for shape in shapes:
-    print(shape.area())
+    print(shape.area()) # Output 20 , 28.259999999999998
 
 """
 In this example, the Shape class serves as the base class with an area method. 
